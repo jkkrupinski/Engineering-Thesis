@@ -1,12 +1,14 @@
 #!/bin/bash
 
+cd /home/jkrupinski/Engineering-Thesis/Database_Full
+
 i=0
 
 for FILE in *.jpg; do
 ((i++))
-if [ $i -eq 24 ];
+if [ $i -eq 16 ];
  then 
- rm "$FILE" 
+ cp "$FILE" /home/jkrupinski/Engineering-Thesis/Database_Cut
 i=0 
 fi
 done

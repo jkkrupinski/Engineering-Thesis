@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd /home/jkrupinski/Engineering-Thesis/Database_Full
-
 i=0
 
 for FILE in *.jpg; do

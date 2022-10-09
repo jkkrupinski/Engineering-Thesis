@@ -18,7 +18,7 @@ Zalecane jest użycie sieci CenterNet, która wykorzystuje nowym pomysł detekcj
 Wyniki sieci należy sprawdzić dla miary **mAP** *(mean average precision)* dla **IoU** z zakresu *0,50:0,5:0,95*.
 
 ## Jupiter Notebook
-(Google Colab)[https://colab.research.google.com/drive/1rwtXUeLLkMj92KVdjL9pXsUvfgd48pfd#scrollTo=bMjAxJDR8Vpl]
+[Google Colab](https://colab.research.google.com/drive/1rwtXUeLLkMj92KVdjL9pXsUvfgd48pfd#scrollTo=bMjAxJDR8Vpl)
 
 ## Przydatne linki
 

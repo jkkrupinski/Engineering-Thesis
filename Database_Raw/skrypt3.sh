@@ -1,16 +1,14 @@
 #!/bin/bash
-for (( i=1;i<22;i++));
-do
-cd IR$i
-cp *.jpg /home/jkrupinski/Engineering-Thesis/Nowa_baza
-cd ..
-done
+for (( i=1;i<31;i++)); do
 
-for (( i=23;i<31;i++));
-do
+FILE=/home/jkrupinski/Engineering-Thesis/Database_Raw/IR$i
+
+if [ -d "$FILE" ]; then
 cd IR$i
-cp *.jpg /home/jkrupinski/Engineering-Thesis/Nowa_baza
+echo IR$i
+cp *.jpg /home/jkrupinski/Engineering-Thesis/Database_Full
 cd ..
+fi
 done
 
 

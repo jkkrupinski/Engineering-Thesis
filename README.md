@@ -4,28 +4,19 @@
 ***System detekcji osób w obrazach w podczerwieni na potrzeby pojazdów autonomicznych***
 
 ## Cel pracy:
-Opracowanie  detekcji osób w obrazach podczerwieni. Detekcja oznacza odszukanie położenia obiektu poprzez wyznaczenie parametrów najmniejszego prostokąta (obwiedni) zwierających szukany obiekt.
+Opracowanie systemu detekcji osób w obrazach podczerwieni. Detekcja oznacza odszukanie położenia obiektu poprzez wyznaczenie parametrów najmniejszego prostokąta (obwiedni) zwierających szukany obiekt.
 
 ## Baza obrazów:
-[CAMEL Dataset](https://camel.ece.gatech.edu/)
+[**CAMEL Dataset**](https://camel.ece.gatech.edu/)
 
 ## Metoda:
-**EfficientDet**
+Skalowalna sieć neuronowa [**EfficientDet**](https://arxiv.org/abs/1905.11946)
+
+## Kod:
+Jupyter Notebook w środowisku [Google Colab](https://colab.research.google.com/drive/1rwtXUeLLkMj92KVdjL9pXsUvfgd48pfd#scrollTo=bMjAxJDR8Vpl)
+
+## Harmonogram pracy
+[**Quire**](https://quire.io/w/Jakub_Krupinski-51/1/1._Wst%C4%99p)
 
 ## Miary jakości: 
 Wyniki sieci należy sprawdzić dla miary **mAP** *(mean average precision)* dla **IoU** z zakresu *0,50:0,5:0,95*.
-
-## Jupiter Notebook
-[Google Colab](https://colab.research.google.com/drive/1rwtXUeLLkMj92KVdjL9pXsUvfgd48pfd#scrollTo=bMjAxJDR8Vpl)
-
-## Przydatne linki
-
-Archana Rao, [One stop for object detectors](https://medium.com/swlh/one-stop-for-object-detectors-2c99daa08c50) - wprowadzenie do sieci w detekcji obiektów
-
-Borijan Georgievski, [Object Detection and Tracking in 2020](https://blog.netcetera.com/object-detection-and-tracking-in-2020-f10fb6ff9af3) - lista metod stosowanych w detekcji i śledzeniu obiektów wraz z przydatnymi linkami
-
-Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, Qi Tian, CenterNet: [Keypoint Triplets for Object Detection, Computer Vision and Pattern Recognition, 2019](https://arxiv.org/abs/1904.08189)
-
-Mingxing Tan, Ruoming Pang, Quoc V. Le, EfficientDet: [Scalable and Efficient Object Detection, Computer Vision and Pattern Recognition, 2019](https://arxiv.org/abs/1911.09070)
-
-## [Quire](https://quire.io/w/Jakub_Krupinski-51/1/1._Wst%C4%99p)

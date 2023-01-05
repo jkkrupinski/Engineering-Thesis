@@ -10,9 +10,7 @@ Opracowanie  detekcji osób w obrazach podczerwieni. Detekcja oznacza odszukanie
 [CAMEL Dataset](https://camel.ece.gatech.edu/)
 
 ## Metoda:
-**CenterNet lub EfficientDet**
-
-Zalecane jest użycie sieci CenterNet, która wykorzystuje nowym pomysł detekcji odchodzący od tradycyjnych kotwic (anchors)  stosowanych do wyznaczenia przypuszczalnego położenia obiektu. Sieć należy dopasować do zbioru danych monochromatycznych lub połączenia informacji z obrazów barwnych.
+**EfficientDet**
 
 ## Miary jakości: 
 Wyniki sieci należy sprawdzić dla miary **mAP** *(mean average precision)* dla **IoU** z zakresu *0,50:0,5:0,95*.
